@@ -1,0 +1,139 @@
+.nav-link{
+    color:rgba(17, 0, 255, 0.721);
+}
+#logo{
+    color: orange;
+    background-color: black;
+    text-decoration: line-through aquamarine;
+}
+#head{
+    padding-top: 20px;
+    margin-top: 80px; 
+}
+#idhead{
+    background-image: url(https://media.istockphoto.com/id/1732963074/photo/starry-night-sky-in-space.webp?b=1&s=170667a&w=0&k=20&c=GA9kMeXVlxEofCEBhETOfi1aiZE39rPxMsefAW7KE94=);
+    height: 290px;
+    margin-top: -80px;
+    text-align: center;
+}
+h2{
+    margin-top: 10px;
+    color: ghostwhite;
+}
+#he1{
+    background-image:linear-gradient(144deg,#af40ff71, #f6f6d3 50%,#dadb93a7);
+}
+form{
+    background-color: aliceblue;
+    padding-left: 10px;
+    padding-top: 5px;
+} 
+button {
+    width: 130px;
+    height: 50px;
+    margin-top: 10px;
+    padding: 12.5px 30px;
+    border: 0;
+    border-radius: 100px;
+    background-color: #2ba8fb;
+    color: #ffffff;
+    font-weight: Bold;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  button:hover {
+    background-color: #6fc5ff;
+    box-shadow: 0 0 20px #6fc5ff50;
+    transform: scale(1.1);
+  }
+  
+  button:active {
+    background-color: #3d94cf;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    box-shadow: none;
+    transform: scale(0.98);
+  }
+  #who{
+    text-align: center;
+    margin:1px 90px;
+  }
+  #w{
+    color: black;
+  }
+  #wp{
+    font-size:larger;
+  }
+  .cardc {
+    width: 219px;
+    height: 264px;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg,#AF40FF, #f6f6d3 50%,#dadb93a7);
+  }
+  
+  .cardc__content {
+    background: rgba(255, 234, 203, 0.701);
+    border-radius: 17px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #info,#case {
+    margin-left: 45%;
+    height:50px;
+    width: 150px;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    font-size: 17px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+   }
+   
+   #info:hover,#case:hover {
+    animation: shake3856 0.3s linear infinite both;
+   }
+   
+   @keyframes shake3856 {
+    0% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   
+    20% {
+     -webkit-transform: translate(-2px, 2px);
+     transform: translate(-2px, 2px);
+    }
+   
+    40% {
+     -webkit-transform: translate(-2px, -2px);
+     transform: translate(-2px, -2px);
+    }
+   
+    60% {
+     -webkit-transform: translate(2px, 2px);
+     transform: translate(2px, 2px);
+    }
+   
+    80% {
+     -webkit-transform: translate(2px, -2px);
+     transform: translate(2px, -2px);
+    }
+   
+    100% {
+     -webkit-transform: translate(0);
+     transform: translate(0);
+    }
+   }
+img{
+  height:300px;width: 300px;
+}
+#case{
+  margin-left:42% ;
+  width: 240px;
+
+}

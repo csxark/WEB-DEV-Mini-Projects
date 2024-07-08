@@ -1,0 +1,38 @@
+body{
+    /* background-color:wheat; */
+    background-image: url("wolf.jpg");
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    color: whitesmoke;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-size:20px;
+}
+#button{
+    background-color:greenyellow;
+    color: black;
+    margin-left: 140px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: 20px;
+    font-size: larger;
+    text-decoration: solid;
+
+}
+h1{
+    /* background-color: aqua; */
+    color: white;
+    font-size: 60px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+#cb{
+    font-size:100px;
+}
