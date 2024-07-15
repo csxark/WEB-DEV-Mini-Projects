@@ -1,0 +1,22 @@
+*{
+    padding: 0%;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    background-image: url(phy.jpg);
+    height: 120px;
+}
+.navbar:has(img){
+    filter: brightness(60%);
+
+}
+#brand{
+    margin-left:36%;
+    filter: brightness(1),contrast(1.75);
+}
+#name{
+    color:rgb(255, 255, 255);
+    filter: drop-shadow(1px 2px 1px black);
+    margin: 16px 15px;
+}
