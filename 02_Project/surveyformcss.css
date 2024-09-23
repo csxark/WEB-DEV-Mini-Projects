@@ -1,6 +1,6 @@
 body{
-    /* background-color:wheat; */
-    background-image: url("wolf.jpg");
+    background-color:rgb(57, 52, 45);
+    /* background-image: url("images/wolf.jpg"); */
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
 }
