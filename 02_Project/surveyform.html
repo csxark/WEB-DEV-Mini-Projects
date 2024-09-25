@@ -1,55 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>survey form</title>
-    <link rel="stylesheet" href="surveyformcss.css">
-</head>
-<body>
-    <h1><b>Survey Form</b></h1>
-    <form  name="surveyform" action="" method="get">
-    <p><b>Name</b></p>
-    <input type="text" placeholder="Enter your Name">
-    <p><b>Age</b></p>
-    <input type="text" placeholder="Enter your Age">
-    <p><b>Email</b></p>
-       
-    <input type="email" placeholder="Enter your Email">
-    <p><b>Date of Birth</b></p>
-     <input type="date">
-    <p><b>Which Option describes you best?</b></p>
-    <select>
-        <option>
-            Student
-        </option>
-        <option>
-            Teacher
-        </option>
-        <option>
-            Working Professional
-        </option>
-        <option>
-            FreeLancer
-        </option>
-    </select>
-    <p><b>Would you recommend this to your friend?</b></p>
-    <input type="radio" name="en"><b>Yes</b><br>
-    <input type="radio" name="en"><b>No</b><br>
-    <input type="radio" name="en"><b>Maybe</b>
-    <p><b>How many Languages you know?</b></p>
-    <input type="checkbox" id="cb"><b>Hindi</b> <br>
-    <input type="checkbox" id="cb"><b>English</b> <br>
-    <input type="checkbox" id="cb"><b>Bengali</b> <br>
-    <input type="checkbox" id="cb"><b>Sanskrit</b> <br>
-    <input type="checkbox" id="cb"><b>Marathi</b> <br>
-    <input type="checkbox" id="cb"><b>Tamil </b><br>
-    <input type="checkbox" id="cb"><b>Telagu</b> <br>
-    <p><b>Any Comments or Suggestions</b></p>
-    <textarea></textarea><br><br><br>
-    <input type="button" value="Submit" id="button">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="surveyformcss.css" />
+  </head>
+  <body>
+    <form>
+      <h2>Survey Form</h2>
+      <hr />
+      <p>Please answer the following questions:</p>
+      <hr class="bg-dark" />
 
+      <label for="name">What is your name?</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="age">What is your age?</label>
+      <p class="age">
+        <input type="radio" id="under18" name="age" value="under18" /> Under 18
+        <input type="radio" id="18-24" name="age" value="18-24" /> 18-24
+        <input type="radio" id="25-34" name="age" value="25-34" /> 25-34
+        <input type="radio" id="over35" name="age" value="over35" /> Over 35
+      </p>
+      <p class="hobby">
+        <label for="hobbies">What are your hobbies?</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading" />
+        Reading
+        <input type="checkbox" id="sports" name="hobbies" value="sports" />
+        Sports
+        <input type="checkbox" id="music" name="hobbies" value="music" /> Music
+      </p>
+      <label for="favoriteColor">What is your favorite color?</label>
+      <select id="favoriteColor" name="favoriteColor">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="other">Other</option>
+      </select>
+
+      <!-- Submit button -->
+      <input type="submit" value="Submit" />
     </form>
-
-</body>
+  </body>
 </html>
