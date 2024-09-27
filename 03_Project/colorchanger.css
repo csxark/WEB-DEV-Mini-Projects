@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.heading{
+    font-size: 24px;
+    display: flex;
+    justify-content:center ;
+    align-content: center;
+    margin-top: 40px;
+}
+.introduction{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 40px;
+}
+span {
+    display: block;
+  }
+  .canvas {
+    margin: 50px auto 100px;
+    width: 80%;
+    text-align: center;
+  }
+  
+  .button {
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50px;
+    display: inline-block;
+  }
+  
+  #grey {
+    background: grey;
+  }
+  
+  #white {
+    background: white;
+  }
+  #blue {
+    background: blue;
+  }
+  #yellow {
+    background: yellow;
+  }
