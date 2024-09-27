@@ -1,8 +1,7 @@
 .container {
     width: 575px;
     height: 825px;
-  
-    background-color: #797978;
+    background-color: #e7e75c;
     padding-left: 30px;
   }
   #height,
@@ -21,7 +20,7 @@
     font-size: 35px;
     margin-left: 90px;
     margin-top: 20px;
-    color: rgb(241, 241, 241);
+    color: rgb(0, 0, 0);
   }
   
   button {
@@ -30,7 +29,7 @@
     margin-left: 90px;
     margin-top: 25px;
     background-color: #fff;
-    padding: 1px 30px;
+    padding: 1px 3px;
     border-radius: 8px;
     color: #212121;
     text-decoration: none;

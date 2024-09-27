@@ -47,3 +47,15 @@ span {
   #yellow {
     background: yellow;
   }
+  #red{
+    background: red;
+  }
+  #green{
+    background: green;
+  }
+  #aqua{
+    background-color: aqua;
+  }
+  #black{
+    background-color: #212121;
+  }
