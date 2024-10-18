@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Color</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>Guess the Color</h1>
+    </div> 
+    <div class="introduction">
+        <p id="intro">Welcome to the color guessing game. You will be shown a color and you have to
+            guess the color. You will get 5 chances to guess the color. If you guess the color
+            correctly. If you run out of chances, you will lose the
+            game.</p>
+    </div><br>
+    <div class="resultParas" style="font-size: 2rem;"><br>
+      <p id="Previous">Previous Guesses: <span class="guesses"></span></p><br>
+      <p id="guess">Guesses Remaining: <span class="lastResult">5</span></p><br>
+      <p class="yesno"></p>
+  </div>
+    <span class="canvas" id="action">
+        <button class="button" id="red"></button>
+        <button class="button" id="orange"></button>
+        <button class="button" id="yellow"></button>
+        <button class="button" id="lime"></button>
+        <button class="button" id="aqua"></button>
+        <button class="button" id="blue"></button>
+        <button class="button" id="pink"></button>
+        <button class="button" id="purple"></button>
+        <button class="button" id="white"></button> 
+        <button class="button" id="gray"></button>
+        <button class="button" id="black"></button>
+      </span>
+
+    <script src="script.js"></script>
+</body>
+</html>
