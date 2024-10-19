@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 40px;
+}
+
+.introduction {
+  font-size: 1.9rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 30px;
+  border: solid rgb(0, 0, 0) 1px;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+#intro {
+  margin-top: -2px;
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2rem;
+  margin: 20px;
+}
+
+p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#Previous, #guess, .yesno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 10px;
+}
+
+.canvas {
+  display: block;
+  margin: 50px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  border-radius: 50px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+}
+
+#gray {
+  background: grey;
+}
+
+#white {
+  background: white;
+}
+
+#blue {
+  background: blue;
+}
+
+#yellow {
+  background: yellow;
+}
+
+#red {
+  background: red;
+}
+
+#lime {
+  background: lime;
+}
+
+#aqua {
+  background-color: aqua;
+}
+
+#black {
+  background-color: #212121;
+}
+
+#pink {
+  background-color: pink;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#orange {
+  background-color: orange;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+  .heading {
+      font-size: 2rem;
+  }
+  
+  .introduction {
+      font-size: 1.7rem;
+      padding: 20px;
+  }
+
+  button {
+      width: 90px;
+      height: 90px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+      font-size: 1.8rem;
+      margin-top: 30px;
+  }
+
+  .introduction {
+      font-size: 1.5rem;
+      padding: 20px;
+  }
+
+  #info {
+      font-size: 1.8rem;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  button {
+      width: 80px;
+      height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+      font-size: 1.5rem;
+      margin-top: 20px;
+  }
+
+  .introduction {
+      font-size: 1.3rem;
+      padding: 20px;
+      margin: 20px;
+  }
+
+  #info {
+      font-size: 1.5rem;
+      flex-direction: column;
+      text-align: center;
+      margin: 10px;
+  }
+
+  button {
+      width: 70px;
+      height: 70px;
+  }
+
+  .canvas {
+      width: 90%;
+  }
+}
