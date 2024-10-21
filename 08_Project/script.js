@@ -6,3 +6,9 @@ const startover = document.querySelector('.resultParas');
 const remaining = document.querySelector('.lastResult');
 const p = document.createElement('p');
 const color_array = ["red", "blue", "lime", "yellow", "purple", "orange", "black", "pink", "white", "gray", "aqua"];
+
+let random_index = Math.floor(Math.random() * color_array.length);
+let prevguess = [];
+let guesscount = 1;
+let playgame = true;
+let color_picked = color_array[random_index];
