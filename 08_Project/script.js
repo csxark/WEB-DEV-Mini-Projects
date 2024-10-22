@@ -12,3 +12,14 @@ let prevguess = [];
 let guesscount = 1;
 let playgame = true;
 let color_picked = color_array[random_index];
+if (playgame) {
+    buttons.forEach(button => {
+        button.addEventListener('click', function (event) {
+            const userguess = event.target.id;
+            body.style.backgroundColor = userguess;
+            body.style.color = ['red','white', 'yellow', 'lime', 'aqua', 'pink', 'orange', 'gray'].includes(userguess) ? 'black' : 'white';
+            validate_guess(userguess);
+            event.target.disabled = true;
+        });
+    });
+}
