@@ -12,6 +12,8 @@ let prevguess = [];
 let guesscount = 1;
 let playgame = true;
 let color_picked = color_array[random_index];
+
+
 if (playgame) {
     buttons.forEach(button => {
         button.addEventListener('click', function (event) {
