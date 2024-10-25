@@ -25,3 +25,15 @@ if (playgame) {
         });
     });
 }
+
+function validate_guess(guess) {
+    if (guesscount <= 5) {
+        displayguess(guess);
+        checkguess(guess);
+    }
+    if (guesscount > 5) {
+        displaymessage(`Game Over!! The color was ${color_picked}`);
+        endgame();
+    }
+}
+
