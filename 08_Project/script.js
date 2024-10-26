@@ -37,3 +37,7 @@ function validate_guess(guess) {
     }
 }
 
+function displaymessage(message) {
+    yesno.innerHTML = message;
+}
+
