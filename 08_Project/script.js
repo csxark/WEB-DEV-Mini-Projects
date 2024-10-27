@@ -41,3 +41,9 @@ function displaymessage(message) {
     yesno.innerHTML = message;
 }
 
+function displayguess(guess) {
+    prevguess.push(guess);
+    guessslot.innerHTML += `${guess} `;
+    remaining.innerHTML = `${5 - guesscount}`;
+    guesscount++;
+}
