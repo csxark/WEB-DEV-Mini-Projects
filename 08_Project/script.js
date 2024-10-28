@@ -47,3 +47,12 @@ function displayguess(guess) {
     remaining.innerHTML = `${5 - guesscount}`;
     guesscount++;
 }
+
+function checkguess(guess) {
+    if (guess === color_picked) {
+        displaymessage(`You guessed it right!`);
+        endgame();
+    } else {
+        displaymessage(`Color is Wrong!`);
+    }
+}
