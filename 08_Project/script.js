@@ -56,3 +56,14 @@ function checkguess(guess) {
         displaymessage(`Color is Wrong!`);
     }
 }
+
+function endgame() {
+    if (remaining.innerHTML = '0' || color_picked in prevguess){
+    playgame = false;
+    p.classList.add('button');
+    p.innerText = 'Play Again';
+    startover.appendChild(p);
+    p.addEventListener('click', newgame);
+}
+};
+
