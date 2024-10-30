@@ -67,3 +67,18 @@ function endgame() {
 }
 };
 
+function newgame() {
+    guesscount = 1;
+    random_index = Math.floor(Math.random() * color_array.length);
+    color_picked = color_array[random_index];
+    console.log(color_picked);
+    prevguess = [];
+    p.remove();
+    displaymessage('');
+    guessslot.innerHTML = '';
+    remaining.innerHTML = '5';
+    body.style.backgroundColor="white";
+    body.style.color="black";
+    playgame = true;
+    enableAllButtons();
+}
