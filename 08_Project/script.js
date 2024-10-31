@@ -82,3 +82,4 @@ function newgame() {
     playgame = true;
     enableAllButtons();
 }
+
