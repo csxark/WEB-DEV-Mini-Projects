@@ -83,3 +83,4 @@ function newgame() {
     enableAllButtons();
 }
 
+function enableAllButtons() {
