@@ -85,3 +85,4 @@ function newgame() {
 
 function enableAllButtons() {
     buttons.forEach(button => button.disabled = false);
+}
