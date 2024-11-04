@@ -1,4 +1,3 @@
-# Mini-Projects
 
 ## Project 06: Guess a Number Game
 
