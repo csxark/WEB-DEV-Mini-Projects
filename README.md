@@ -1,6 +1,10 @@
 # Web Development Projects
 Welcome to my web development projects repository! Here, you'll find a collection of projects that showcase my skills in HTML, CSS, and JavaScript. Each project is designed to demonstrate my ability to create interactive and visually appealing web applications.
 
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
 ## Project 06: Guess a Number Game
 
 ### Description
