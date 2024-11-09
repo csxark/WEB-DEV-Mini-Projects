@@ -7,6 +7,7 @@ Welcome to my web development projects repository! Here, you'll find a collectio
 - HTML
 - CSS
 - JavaScript
+
 ## Project 06: Guess a Number Game
 
 ### Description
@@ -22,11 +23,6 @@ A simple interactive game where the player has to guess a randomly generated num
 - User input for guesses
 - Feedback on guesses
 - Limited attempts
-
-### Technologies Used
-- HTML
-- CSS
-- JavaScript
 
 ### Live Demo
 Tap to Play: [Guess a Number Game](https://codepen.io/csxark/full/wvbbZge)
