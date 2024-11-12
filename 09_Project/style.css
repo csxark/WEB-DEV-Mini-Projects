@@ -1,36 +1,78 @@
-*{
+* {
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
 }
-body{
+body {
     background-color: #ffffff;
     color: #000000;
-    align-content: center;
     font-size: 2rem;
-}
-h1{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 40px;
+}
+h1 {
+    margin: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(105, 105, 105, 0.5);
+    color: #000000;
 }
 button {
-    font-size: 3rem;
-    text-align: center; 
-    margin: 10px auto;
+    font-size: 1.5rem;
     padding: 0.5rem 1rem; 
-    border:solid black;
+    border: solid black;
     border-radius: 2.5rem; 
     background-color: #ffffff;
     color: #000000;
-    cursor: pointer; 
-  }
-#start{
-   margin-left:30%;
-   margin-right:30%;
-   start:hover{
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin: 10px;
+}
+#start, #stop {
+    width: 50%;
+    max-width: 300px;
+}
+#start:hover, #stop:hover {
+    background-color: #121d28;
+    color: #ffffff;
+}
+#start:active, #stop:active {
     background-color: #000000;
     color: #ffffff;
 }
+
+/* Tablet and smaller screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 1.8rem;
+    }
+    h1 {
+        font-size: 2rem;
+        margin: 15px;
+    }
+    button {
+        font-size: 1.4rem;
+    }
+}
+
+/* Mobile screens */
+@media (max-width: 480px) {
+    body {
+        font-size: 1.6rem;
+    }
+    h1 {
+        font-size: 1.8rem;
+        margin: 10px;
+    }
+    button {
+        font-size: 1.2rem;
+        padding: 0.4rem 0.8rem;
+    }
+    #start, #stop {
+        width: 90%;
+        margin: 5px;
+    }
 }
