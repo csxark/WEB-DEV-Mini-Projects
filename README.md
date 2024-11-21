@@ -18,6 +18,15 @@ Welcome to my web development projects repository! Here, you'll find a collectio
 - CSS
 - JavaScript
 
+## Getting Started
+
+To get started with these projects, follow these steps:
+1. Clone the repository to your local machine.
+2. Open the project folder in your preferred code editor.
+3. Explore the HTML, CSS, and JavaScript files to understand the project structure.
+4. Customize and modify the code as needed.
+5. Test the project locally to ensure it works as expected.
+
 ## Project 01: Tribute Page
 
 ### Description
@@ -139,16 +148,6 @@ A simple web page that allows users to change the background color of the page b
 ### Features
 - Interactive button to change background color
 - Start and Stop buttons for color change control
-
-
-## Getting Started
-
-To get started with these projects, follow these steps:
-1. Clone the repository to your local machine.
-2. Open the project folder in your preferred code editor.
-3. Explore the HTML, CSS, and JavaScript files to understand the project structure.
-4. Customize and modify the code as needed.
-5. Test the project locally to ensure it works as expected.
 
 ## Usage
 Feel free to use these projects as a reference or as a starting point for your own web development projects.
