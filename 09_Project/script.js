@@ -14,7 +14,7 @@ const startchangecolor =function () {
         document.body.style.backgroundColor=randomcolor();
     };
     if (!intervalid) {
-        intervalid=setInterval(changebgcolor, 1000);
+        intervalid=setInterval(changebgcolor, 1);
     };
 };
 
